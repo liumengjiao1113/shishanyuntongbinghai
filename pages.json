@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "我的任务"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path" : "pages/task-list/task-list",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务列表"
+			}
+		},
+		{
+			"path" : "pages/task-detail/task-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务详情"
+			}
+		},
+		{
+			"path" : "pages/collect/collect",
+			"style" : 
+			{
+				"navigationBarTitleText" : "采集"
+			}
+		},
+		{
+			"path" : "pages/result/result",
+			"style" : 
+			{
+				"navigationBarTitleText" : "结果查看"
+			}
+		},
+		{
+			"path" : "pages/offline/offline",
+			"style" : 
+			{
+				"navigationBarTitleText" : "离线拍照"
+			}
+		},
+		{
+			"path" : "pages/offline-upload/offline-upload",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/record/record",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
