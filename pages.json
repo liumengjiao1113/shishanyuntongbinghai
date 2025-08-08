@@ -54,13 +54,7 @@
 				"navigationBarTitleText" : "离线拍照"
 			}
 		},
-		{
-			"path" : "pages/offline-upload/offline-upload",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
+	
 		{
 			"path" : "pages/record/record",
 			"style" : 

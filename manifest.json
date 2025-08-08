@@ -26,7 +26,8 @@
         /* 模块配置 */
         "modules" : {
             "Camera" : {},
-            "Geolocation" : {}
+            "Geolocation" : {},
+            "SQLite" : {}
         },
         /* 应用发布信息 */
         "distribute" : {
@@ -47,7 +48,9 @@
                     "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
                     "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
                     "<uses-feature android:name=\"android.hardware.camera\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>"
                 ]
             },
             /* ios打包配置 */
@@ -100,3 +103,5 @@
     },
     "vueVersion" : "3"
 }
+/* ios打包配置 *//* SDK配置 */
+
